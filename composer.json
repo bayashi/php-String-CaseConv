@@ -1,0 +1,11 @@
+{
+  "name": "bayashi/string-caseconv",
+  "description": "word case convertor",
+  "license": "PHP-3.0",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "String\\": "src/"
+    }
+  }
+}
