@@ -25,6 +25,8 @@ function main()
 
     conv('foo_bar', 'toUpperCamel');
 
+    conv('foo_bar', 'toPascal');
+
     conv('FooBar', 'toSnake');
 
     conv('FooBar', 'toLowerSnake');
@@ -44,4 +46,8 @@ function main()
     conv('foo-bar', 'toConstant');
 
     conv('foo_md5', 'toHttpHeader');
+
+    conv('foo_bar', 'toSpace');
+
+    conv('foo_bar', 'toScreaming');
 }

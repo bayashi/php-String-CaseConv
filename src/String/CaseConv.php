@@ -56,6 +56,11 @@ class CaseConv
         return self::convertCase($string, 'ucfirst', 'ucfirst', '');
     }
 
+    static public function toPascal($string)
+    {
+        return self::toUpperCamel($string);
+    }
+
     static public function toSnake($string)
     {
         return self::toLowersnake($string);
@@ -104,5 +109,15 @@ class CaseConv
     static public function toHttpHeader($string)
     {
         return self::convertCase($string, 'self::httpHeaderCaps', 'self::httpHeaderCaps', '-');
+    }
+
+    static public function toSpace($string)
+    {
+        return self::convertCase($string, 'strtolower', 'strtolower', ' ');
+    }
+
+    static public function toScreaming($string)
+    {
+        return self::convertCase($string, 'strtoupper', 'strtoupper', ' ');
     }
 }

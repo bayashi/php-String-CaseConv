@@ -53,6 +53,10 @@ fooBar
 
 FooBar
 
+### toPascal
+
+FooBar
+
 ### toSnake
 
 foo_bar
@@ -92,6 +96,14 @@ FOO_BAR
 ### toHttpHeader
 
 Foo-MD5
+
+### toSpace
+
+foo bar
+
+### toScreaming
+
+FOO BAR
 
 ## THANKS TO
 
