@@ -63,7 +63,7 @@ class CaseConv
 
     static public function toSnake($string)
     {
-        return self::toLowersnake($string);
+        return self::toLowerSnake($string);
     }
 
     static public function toLowerSnake($string)
