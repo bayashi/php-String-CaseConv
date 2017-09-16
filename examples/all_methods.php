@@ -2,9 +2,7 @@
 
 use \String\CaseConv;
 
-#require_once __DIR__ . '/../vendor/autoload.php';
-
-require_once './src/String/CaseConv.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 main();
 exit;
